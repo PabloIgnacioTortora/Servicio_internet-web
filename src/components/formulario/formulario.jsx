@@ -6,10 +6,10 @@ function sendemail(e) {
 
   emailjs
     .sendForm(
-      process.env.SERVICE,
-      process.env.TEMPLATE,
+      process.env.REACT_APP_SERVICE,
+      process.env.REACT_APP_TEMPLATE,
       e.target,
-      process.env.USER
+      process.env.REACT_APP_USER
     )
     .then(
       (result) => {
