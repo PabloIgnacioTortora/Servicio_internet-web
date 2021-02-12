@@ -6,7 +6,7 @@ import Formulario from "../formulario/formulario";
 const Contacto = () => {
   const useStyles = makeStyles(() => ({
     contactSection: {
-      height: "130vh",
+      height: "140vh",
       background: "#EEEEEE",
       padding: "5% 13% 5% 13%",
       display: "grid",
@@ -15,6 +15,7 @@ const Contacto = () => {
     card: {
       display: "grid",
       alignSelf: "center",
+      borderRadius: "8px",
     },
   }));
 

@@ -1,0 +1,9 @@
+/* ESTILO DE REBOOT.SCSS IMPORTANTE PARA QUITAR EL OuTLINE QUE RESALTA LOS BORDES DE LAS TABS DEL HEADER y queda mal */
+button:focus {
+  outline: none !important;
+}
+
+/* QUito los botones del slide */
+.react-slideshow-container .default-nav {
+  display: none !important;
+}

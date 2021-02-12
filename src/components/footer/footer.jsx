@@ -2,6 +2,7 @@ import React from "react";
 import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core";
 import Container from "@material-ui/core/Container";
+import moment from "moment";
 
 const Footer = () => {
   const useStyles = makeStyles(() => ({
@@ -17,6 +18,8 @@ const Footer = () => {
     toolbar: {},
   }));
 
+const year = moment().format(' YYYY ');     // 2021 escaped 2021
+
   const classes = useStyles();
   return (
     <footer>
@@ -24,7 +27,7 @@ const Footer = () => {
         <Container maxWidth="md">
           <Toolbar className={classes.toobar}>
             <Typography variant="body1" className={classes.copyrigth}>
-              © Copyrigth 2021 All rights reserved | Empresa de servicios de
+            Copyrigth© {year} All rights reserved | Empresa de servicios de
               internet
             </Typography>
           </Toolbar>

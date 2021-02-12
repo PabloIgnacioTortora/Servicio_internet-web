@@ -14,13 +14,14 @@ const InfoSection = () => {
   const useStyles = makeStyles(() => ({
     card: {
       width: "55vw",
-      height: "70vh",
+      height: "60vh",
+      borderRadius: "40px",
       gridArea: "1 / col2-start / last-line / 2 ",
       justifySelf: "end",
       alignSelf: "center",
     },
     section: {
-      height: "130vh",
+      height: "90vh",
       background: "#EEEEEE",
       padding: "7%",
       display: "grid",
@@ -57,17 +58,17 @@ const InfoSection = () => {
         <Fade>
           <div className="each-fade">
             <div className="image-container">
-              <img className={classes.images} src={fadeImages[0]} />
+              <img className={classes.images} src={fadeImages[0]} alt="img0" />
             </div>
           </div>
           <div className="each-fade">
             <div className="image-container">
-              <img className={classes.images} src={fadeImages[1]} />
+              <img className={classes.images} src={fadeImages[1]} alt="img1" />
             </div>
           </div>
           <div className="each-fade">
             <div className="image-container">
-              <img className={classes.images} src={fadeImages[2]} />
+              <img className={classes.images} src={fadeImages[2]} alt="img2" />
             </div>
           </div>
         </Fade>
