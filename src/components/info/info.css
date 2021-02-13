@@ -1,0 +1,70 @@
+@media (max-width: 1024px) {
+  #section {
+    height: 200vh;
+    background: #eeeeee;
+    padding: 7%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "card"
+      "divH1 ";
+  }
+
+  #card {
+    width: 91vw;
+    height: 79vh;
+    grid-area: card;
+    justify-self: center;
+  }
+
+  #divH1 {
+    grid-area: divH1;
+    justify-self: center;
+  }
+
+  #h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #card {
+    width: 90vw;
+    height: 55vh;
+  }
+}
+
+@media (max-width: 425px) {
+  #card {
+    width: 90vw;
+    height: 30vh;
+  }
+  #section {
+    height: 130vh;
+    gap: 10%;
+  }
+  #h1 {
+    font-size: 2.5rem;
+  }
+  #card {
+    align-self: end;
+  }
+
+  #divH1 {
+    align-self: start;
+    text-align: center;
+  }
+}
+
+@media (max-width: 360px) {
+  #section {
+    height: 110vh;
+    gap: 10%;
+  }
+
+  #card {
+    width: 90vw;
+    height: 23vh;
+  }
+}

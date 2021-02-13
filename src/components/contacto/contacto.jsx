@@ -2,6 +2,7 @@ import React from "react";
 import Card from "@material-ui/core/Card";
 import { makeStyles } from "@material-ui/core";
 import Formulario from "../formulario/formulario";
+import "./contacto.css";
 
 const Contacto = () => {
   const useStyles = makeStyles(() => ({
@@ -22,7 +23,7 @@ const Contacto = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.contactSection}>
+    <div className={classes.contactSection} id="contactSection">
       <Card className={classes.card}>
         <div style={{ width: `100%` }}>
           <Formulario />

@@ -1,0 +1,11 @@
+@media (max-width: 1440px) {
+  #header {
+    margin-left: 25.5%;
+  }
+}
+
+@media (max-width: 1024px) {
+  #header {
+    margin-left: 16%;
+  }
+}

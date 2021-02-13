@@ -8,6 +8,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import Slide from "@material-ui/core/Slide";
 import logo from "../assets/images/Untitled.png";
+import "./header.css";
 
 // TABS DEL HEADER //
 const AntTabs = withStyles({
@@ -55,10 +56,9 @@ const AntTab = withStyles((theme) => ({
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    position: "absolute",
-    left: "33%",
-    right: "0",
-    bottom: "0",
+    display: "flex",
+    alignSelf: "flex-end",
+    marginLeft: "5%",
   },
   padding: {
     padding: theme.spacing(0),
@@ -80,7 +80,7 @@ function CustomizedTabs() {
   };
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="header">
       <div className={classes.demo2}>
         <AntTabs value={value} onChange={handleChange} aria-label="ant example">
           <AntTab label="HOME" href="#principal" />
@@ -118,11 +118,6 @@ export default function HideAppBar(props) {
     },
     logo: {
       height: "100%",
-      marginLeft: "4%",
-    },
-    buttom: {
-      marginTop: "2%",
-      right: "-85%",
     },
   }));
 

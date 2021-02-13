@@ -1,0 +1,17 @@
+@media (max-width: 1024px) {
+  #contactSection {
+    height: 160vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #contactSection {
+    padding: 5% 3% 5% 3%;
+  }
+}
+
+@media (max-width: 360px) {
+    #contactSection {
+        height: 130vh;
+      }
+  }

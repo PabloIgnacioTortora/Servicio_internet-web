@@ -1,8 +1,29 @@
-/* .slide-container{
-    height: 100%;
-    margin-top: 15vh;  
-} */
+.image_div {
+  margin-top: 3vh;
+  height: 100vh;
+}
 
-.image{
-    margin-top: 15vh;
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .image_div {
+    margin-top: 11vh;
+    height: 80vh;
+  }
+}
+
+@media (max-width: 425px) {
+  .image_div {
+    margin-top: 10vh;
+    height: 40vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .image_div {
+    height: 30vh;
+  }
 }
