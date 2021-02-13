@@ -24,6 +24,7 @@ const useStyles = makeStyles((theme) => ({
     transition: theme.transitions.create(["margin", "width"], {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
+      backgroundColor:"#EEEEEE"
     }),
   },
   appBarShift: {
@@ -89,7 +90,7 @@ export default function PersistentDrawerLeft() {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <AppBar
+      <AppBar color="#EEEEEE"
         position="fixed"
         className={clsx(classes.appBar, {
           [classes.appBarShift]: open,
