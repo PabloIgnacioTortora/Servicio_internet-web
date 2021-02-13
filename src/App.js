@@ -16,7 +16,7 @@ function App() {
         queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 768px)",
-          large: "(min-width: 1024px)",
+          large: "(min-width: 769px)",
         }}
       >
         {(matches) => (

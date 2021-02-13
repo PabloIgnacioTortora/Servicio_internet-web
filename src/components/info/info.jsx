@@ -23,8 +23,8 @@ const InfoSection = () => {
       gap: "15px",
     },
     card: {
-      width: "55vw",
-      height: "60vh",
+      width: "90%",
+      height: "70%",
       borderRadius: "40px",
       gridArea: "1 / col2-start / last-line / 2 ",
       justifySelf: "end",

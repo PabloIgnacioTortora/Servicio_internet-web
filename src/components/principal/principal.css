@@ -15,15 +15,10 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (min-width: 425px) {
   .image_div {
-    margin-top: 10vh;
-    height: 40vh;
+    margin-top: 7vh;
+    height: 100%;
   }
 }
 
-@media (max-width: 360px) {
-  .image_div {
-    height: 30vh;
-  }
-}

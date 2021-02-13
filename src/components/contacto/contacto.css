@@ -1,12 +1,13 @@
 @media (max-width: 1024px) {
   #contactSection {
-    height: 160vh;
+    height: 130vh;
   }
 }
 
 @media (max-width: 768px) {
   #contactSection {
     padding: 5% 3% 5% 3%;
+    height: 120vh;
   }
 }
 

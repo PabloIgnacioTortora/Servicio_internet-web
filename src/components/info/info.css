@@ -1,6 +1,6 @@
 @media (max-width: 1024px) {
   #section {
-    height: 200vh;
+    height: 170vh;
     background: #eeeeee;
     padding: 7%;
     display: grid;
@@ -12,15 +12,17 @@
   }
 
   #card {
-    width: 91vw;
-    height: 79vh;
+    width: 90%;
+    height: 50%;
     grid-area: card;
     justify-self: center;
+    align-self: center;
   }
 
   #divH1 {
     grid-area: divH1;
     justify-self: center;
+    align-self: start;
   }
 
   #h1 {
@@ -29,19 +31,29 @@
 }
 
 @media (max-width: 768px) {
+  #section {
+    height: 100vh;
+  }
   #card {
     width: 90vw;
-    height: 55vh;
+    height: 45%;
+  }
+  #divH1 {
+    align-self: start;
+    text-align: center;
+  }
+  #h1 {
+    font-size: 3rem;
   }
 }
 
 @media (max-width: 425px) {
   #card {
-    width: 90vw;
-    height: 30vh;
+    width: 100%;
+    height: 50%;
   }
   #section {
-    height: 130vh;
+    height: 100vh;
     gap: 10%;
   }
   #h1 {
