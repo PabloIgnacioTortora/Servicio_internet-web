@@ -98,7 +98,7 @@ const InfoSection = () => {
             Donde mas
           </h1>
           <h1 className={classes.h1} id="h1">
-            lo nececitas
+            lo necesitas
           </h1>
         </div>
       </Slide>
